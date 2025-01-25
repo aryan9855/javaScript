@@ -1,0 +1,24 @@
+.box {
+    height: 100px;
+    width: 100px;
+    border: 0.5rem solid black;
+    margin: 5px;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1 {
+    background-color: rgb(180, 180, 180);
+    color: rgb(10, 0, 0);
+    border: 2px solid #000c01;
+    padding: 10px 24px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 1rem;
+}
