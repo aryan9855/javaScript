@@ -53,3 +53,67 @@
 
 //     console.log(currMode);
 // });
+
+
+// const student = {
+//     fullName: "Aryan",
+//     age: 21,
+//     printage: function(){
+//         console.log("age = ",this.age);
+//     },
+// };
+
+// class car{
+//     start(){
+//         console.log("start");
+//     }
+//     stop(){
+//         console.log("stop");
+//     }
+// }
+
+// let x = new car();
+// let y = new car();
+
+
+// function hello1(){
+//     console.log("Hello1");
+// }
+// setTimeout(hello1, 5000);
+// function hello2(){
+//     console.log("Hello2");
+// }
+// setTimeout(hello2, 2000);
+
+
+
+
+// setTimeout(() => {
+//     console.log("Five");
+// }, 1000);
+// setTimeout(() => {
+//     console.log("Four");
+// }, 2000);
+// setTimeout(() => {
+//     console.log("Three");
+// }, 3000);
+// setTimeout(() => {
+//     console.log("Two");
+// }, 4000);
+// setTimeout(() => {
+//     console.log("one");
+// }, 5000);
+// setTimeout(() => {
+//     console.log("Hello!");
+// }, 6000);
+
+
+// const URL = "https://cat-fact.herokuapp.com/facts";
+
+// const getFacts = async () => {
+//     console.log("Getting facts .....");
+//     let response = await fetch(URL);
+//     console.log(response);
+//     let data = await response.json();
+//     console.log(data[0].text);
+// };
