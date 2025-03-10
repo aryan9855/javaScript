@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(112, 90, 59);
+}
+
+.text-center{
+    text-align: center;
+    font-size: 3.5rem;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.button{
+    padding: 2.5rem;
+    margin: 0.3rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px;
+    cursor: pointer;
+    font-size: 2rem;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+
+.input-row {
+    padding: 2rem 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    border-radius: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.text {
+    width:25rem;
+    font-size: 2rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px;
+    text-align: center;
+}
+
+#ACbutton{
+    padding: 2.5rem;
+    width: 12rem;
+    margin: 0.3rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px;
+    cursor: pointer;
+    font-size: 2rem;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
