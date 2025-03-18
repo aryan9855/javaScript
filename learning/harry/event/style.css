@@ -1,0 +1,28 @@
+.earth{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background: lightgreen;
+
+}
+
+.india{
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+    height: 60px;
+    width: 60px;
+    border: 2px solid black;
+}
+
+.state{
+    border: 2px solid black;
+    background: burlywood;
+    padding: 10px;
+    height: 30px;
+    width: 40px;
+    cursor: pointer;
+}
+
