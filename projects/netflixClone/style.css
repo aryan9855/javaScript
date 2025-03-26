@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("assets/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    
+
+}
+.main .box{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top:0;
+    background-color: black;
+}
+
+nav{
+    max-width: 85vw;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+nav img{
+    
+    width: 100px;
+    margin-top: 20px;
+    color: red;
+    z-index: 1;
+    position: relative;
+}
+
+nav button{
+    position: relative;
+    z-index: 1;
+    
+}
+
+.hero{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: 'Martel Sans' , sans-seif;
+    gap : 20px;
+
+}
+
+.hero> :first-child{
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.hero> :nth-child(2){
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.hero> :first-child(3){
+    font-weight: 400;
+    font-size: 20px;
+}
