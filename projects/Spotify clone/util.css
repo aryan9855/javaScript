@@ -40,3 +40,25 @@
 .p-1{
     padding: 10px;
 }
+
+/* Works in Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+    width: 10px; /* Scrollbar width */
+}
+
+/* Scrollbar Track (Background) */
+::-webkit-scrollbar-track {
+    background: #121212; /* Dark background */
+    border-radius: 10px;
+}
+
+/* Scrollbar Handle (Thumb) */
+::-webkit-scrollbar-thumb {
+    background: #656161; /* Spotify Green */
+    border-radius: 10px;
+}
+
+/* Scrollbar Handle on Hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #656161; /* Darker green on hover */
+}
