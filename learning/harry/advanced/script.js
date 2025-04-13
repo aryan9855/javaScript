@@ -12,5 +12,3 @@
 // let { a,b} = obj;
 // console.log(a,b);
 
-
- 
